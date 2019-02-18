@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                echo "Building ${env.BUILD_ID}"
+                echo "Building test ${env.BUILD_ID}"
 
 		sh 'mvn -B -DskipTests clean package' 
             }
