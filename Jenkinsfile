@@ -5,7 +5,7 @@ pipeline {
         stage('Build') { 
             steps {
                 echo "Building test ${env.BUILD_ID}"
-
+		checkout scm
 		sh 'mvn -B -DskipTests clean package' 
             }
         }
