@@ -1,7 +1,7 @@
 package com.mycompany.app;
 
 /**
- * Hello world! ABC
+ * Hello world! ABC 2020-01-12
  */
 public class App
 {
